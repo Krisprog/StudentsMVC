@@ -11,7 +11,7 @@ namespace StudentsMVC.Controllers
         public string Square(int a, int h)//Home/Square?a=10&h=5
         {
             double s = a * h / 2;
-            return "<h2>Площадь треугольника с основанием " + a +
+            return "<h2>Площадь треугольника " + a +
                     " и высотой " + h + " равна " + s + "</h2>";
         }
         
